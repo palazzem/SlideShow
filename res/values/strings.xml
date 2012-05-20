@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Slide Show</string>
+    <string name="imageview_alt">Selected image</string>
+    <string name="slogan">Slogan of your app</string>
+    <string name="logo_alt">Logo</string>
+    <string name="image_alt">Opened image</string>
+
+</resources>

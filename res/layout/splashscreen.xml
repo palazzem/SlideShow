@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" android:background="@color/splash_background">
+
+    <ImageView
+        android:id="@+id/imageSplash"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:contentDescription="@string/logo_alt"
+        android:src="@drawable/ic_launcher" />
+
+    <TextView
+        android:id="@+id/lblCakebit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageSplash"
+        android:layout_centerHorizontal="true"
+        android:text="@string/slogan" android:textColor="@color/splash_slogan"/>
+
+</RelativeLayout>
